@@ -1,0 +1,5 @@
+.two-columns__brief {
+    min-width: 20%;
+    width: 175px;
+    align-self: stretch;
+}
