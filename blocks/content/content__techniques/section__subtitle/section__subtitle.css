@@ -1,8 +1,6 @@
-.techniques__title {
+.section__subtitle {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 20px;
     width: 60%;
 }

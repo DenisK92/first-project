@@ -10,4 +10,5 @@
     border: 1px solid #fff;
     border-radius: 25%;
     transition: 0.7s linear;
+    overflow: hidden;
 }

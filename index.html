@@ -13,7 +13,7 @@
 
         <header class="header">
             <div class="logo logo_place_header">
-                <img src="blocks/logo/logo.svg" alt="logo">
+                <img src="images/logo/logo.svg" alt="logo">
             </div>
 
             <div class="header__title">
@@ -34,7 +34,9 @@
             </div>
 
             <div class="header__square-pic">
-                <div class="header__square-pic_background">
+                <div class="header__square-pic_background header__rotation">
+                </div>
+                <div class="header__rotation">
                 </div>
             </div>
 
@@ -86,20 +88,20 @@
 
                 <div class="content_techniques">
 
-                    <section class="techniques__title">
+                    <section class="section__title">
 
-                        <h2 class="techniques__title_text">Техники обучения</h2>
-
-                    </section>
-
-                    <section class="techniques__subtitle">
-
-                        <h3 class="techniques__subtitle_text">Пять практик от Барбары Оакли</h3>
+                        <h2 class="section__title_text">Техники обучения</h2>
 
                     </section>
 
+                    <section class="section__subtitle">
 
-                    <div class="techniques__cards">
+                        <h3 class="section__subtitle_text">Пять практик от Барбары Оакли</h3>
+
+                    </section>
+
+
+                    <div class="section__cards">
 
                         <div class="cards__item">
 
@@ -230,17 +232,130 @@
                 
             </section>
 
-            <section class="digits">
+            <section class="video">
+                <section class="section__title">
 
-                <section class="techniques__title">
-
-                    <h2 class="techniques__title_text">Цифры и факты</h2>
+                    <h2 class="section__title_text">Видео на TED</h2>
 
                 </section>
 
-                <section class="techniques__subtitle">
+                <section class="section__subtitle">
 
-                    <h3 class="techniques__subtitle_text">Про учёбу и мозг</h3>
+                    <h3 class="section__subtitle_text">Для тех, кто любит прокастранировать</h3>
+
+                </section>
+
+                <div class="section__video_zone">
+
+                    <iframe width="513" height="316" class="section__video_iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <iframe width="513" height="316" class="section__video_iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+
+            </section>
+
+            <section class="oakley">
+
+                <div class="two-columns">
+                    <div class="two-columns__brief">
+                        <h2 class="two-columns__brief_text two-columns__text">
+                            История Барбары
+                       <h2 class="two-columns__brief_text two-columns__text">
+                             Оакли.
+                        </h2>
+                    </div>
+
+                    <div class="two-columns_main-text">
+                        
+                        <div class="two-columns__paragraph">
+                            <p class="two-columns__paragraph_text two-columns__text">
+                                
+                                С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <section class="khan">
+
+                <div class="khan__kontainer">
+
+                    <div class="khan__author">
+
+                        <h3 class="khan__author_text">
+                            Саламан Хан
+                        </h3>
+
+                    </div>
+
+                    <div class="khan__title">
+
+                        <h2 class="khan__title_text">
+                            Весь мир - школа
+                        </h2>
+
+                    </div>
+
+                    <div class="khan__quote">
+
+                        <p class="khan__quote_text">
+                            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+                        </p>
+
+                    </div>
+
+                    <div class="khan__quote-author">
+
+                        <h4 class="khan__quote-author_text">
+                            Джордж Лукас
+                        </h4>
+
+                    </div>
+
+                    <div class="khan__quote-author-subline">
+
+                        <p class="khan__quote-author-subline_text">
+                            Кинорежиссер, продюсер
+                        </p>
+
+                    </div>
+
+                    <div class="khan__book-container">
+
+                        <div class="khan__book-pic">
+
+                            <img src="images/khan-book.jpg" class="khan__book_picture" alt="khan book">
+
+                        </div>
+
+                        <div class="khan__buy-link">
+
+                            <a class="buy-link" href="#"> Купить книгу &#x2192; </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="digits">
+
+                <section class="section__title">
+
+                    <h2 class="section__title_text">Цифры и факты</h2>
+
+                </section>
+
+                <section class="section__subtitle">
+
+                    <h3 class="section__subtitle_text">Про учёбу и мозг</h3>
 
                 </section>
 
@@ -352,17 +467,24 @@
 
                 <div class="kaufman__theme_dark">
 
-                    <section class="techniques__title">
+                    <div class="section__triangle_rotation">
 
-                        <h2 class="techniques__title_text">Принципы обучения</h2>
+                        <img src="images/triangle.svg" class="section__triangle section__rotation" alt="triangle">
+                        <div class="section__rotation"></div>
+                    </div>
+
+                    <section class="section__title">
+
+                        <h2 class="section__title_text">Принципы обучения</h2>
 
                     </section>
 
-                    <section class="techniques__subtitle">
+                    <section class="section__subtitle">
 
-                        <h3 class="techniques__subtitle_text">от Джоша Кауфмана</h3>
+                        <h3 class="section__subtitle_text">от Джоша Кауфмана</h3>
 
                     </section>
+
 
                         <div class="digits__table">
 
@@ -529,7 +651,9 @@
 
                                 
                             </div>
+                            
                         </div>
+
 
                     <div class="kaufman_block_invisible">
 
@@ -542,15 +666,15 @@
 
             <section class="resources">
                 
-                <section class="techniques__title">
+                <section class="section__title">
 
-                    <h2 class="techniques__title_text">Полезные ресурсы</h2>
+                    <h2 class="section__title_text">Полезные ресурсы</h2>
 
                 </section>
 
-                <section class="techniques__subtitle">
+                <section class="section__subtitle">
 
-                    <h3 class="techniques__subtitle_text">Больше материалов о техниках и лайвхаках обучения</h3>
+                    <h3 class="section__subtitle_text">Больше материалов о техниках и лайвхаках обучения</h3>
 
                 </section>
 

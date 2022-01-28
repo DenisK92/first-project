@@ -1,0 +1,6 @@
+.section__triangle {
+    position: absolute;
+    top: 0px;
+    right: -150px;
+    z-index: -1;
+}
